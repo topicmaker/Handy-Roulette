@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RouletterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RouletterAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* RouletterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RouletterViewController.m */; };
+		C91D342311F996C900A9D917 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C91D342211F996C900A9D917 /* icon.png */; };
+		C929C58711DB17ED0046F675 /* EditCardNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = C929C58511DB17ED0046F675 /* EditCardNumber.m */; };
+		C929C58811DB17ED0046F675 /* EditCardNumber.xib in Resources */ = {isa = PBXBuildFile; fileRef = C929C58611DB17ED0046F675 /* EditCardNumber.xib */; };
+		C943E9CB122509B50017E831 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C943E9CA122509B50017E831 /* AudioToolbox.framework */; };
+		C951E71F11F9618B00AF23D4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C951E71E11F9618B00AF23D4 /* Default.png */; };
+		C97AB8A211FD507500FCB764 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C97AB8A111FD507500FCB764 /* InfoPlist.strings */; };
+		C9800DAF11D846F3002D1A6E /* NumberCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C9800DAD11D846F3002D1A6E /* NumberCard.m */; };
+		C9800DB011D846F3002D1A6E /* NumberCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9800DAE11D846F3002D1A6E /* NumberCard.xib */; };
+		C997B184121CEF3700D5A150 /* kachi.wav in Resources */ = {isa = PBXBuildFile; fileRef = C997B183121CEF3700D5A150 /* kachi.wav */; };
+		C9B18D5A12544E9700FF395F /* st_tapme.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B18D5912544E9700FF395F /* st_tapme.png */; };
+		C9B18D9D1254555800FF395F /* st_flickme.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B18D9C1254555800FF395F /* st_flickme.png */; };
+		C9BA453111F6EA7200E57145 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA453011F6EA7200E57145 /* AVFoundation.framework */; };
+		C9BA454D11F6EB3B00E57145 /* guruguru2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9BA454511F6EB3A00E57145 /* guruguru2.wav */; };
+		C9BA455311F6EB3B00E57145 /* koton49.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9BA454B11F6EB3B00E57145 /* koton49.wav */; };
+		C9DDF05B11F82B3A0058642B /* bg_black.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DDF05811F82B3A0058642B /* bg_black.png */; };
+		C9DDF05C11F82B3A0058642B /* bg_red.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DDF05911F82B3A0058642B /* bg_red.png */; };
+		C9DDF05D11F82B3A0058642B /* bg_green.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DDF05A11F82B3A0058642B /* bg_green.png */; };
+		C9DDF0A411F82D510058642B /* MyUIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DDF0A311F82D510058642B /* MyUIScrollView.m */; };
+		C9ED78BA1253369900EE5FED /* RouletterData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9ED78B91253369900EE5FED /* RouletterData.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RouletterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouletterAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RouletterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouletterAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Rouletter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rouletter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* RouletterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouletterViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* RouletterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouletterViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Rouletter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rouletter_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Rouletter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Rouletter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C91D342211F996C900A9D917 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C929C58411DB17ED0046F675 /* EditCardNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCardNumber.h; sourceTree = "<group>"; };
+		C929C58511DB17ED0046F675 /* EditCardNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCardNumber.m; sourceTree = "<group>"; };
+		C929C58611DB17ED0046F675 /* EditCardNumber.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EditCardNumber.xib; path = Classes/EditCardNumber.xib; sourceTree = "<group>"; };
+		C943E9CA122509B50017E831 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C951E71E11F9618B00AF23D4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C97AB89F11FD505600FCB764 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9800DAC11D846F3002D1A6E /* NumberCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberCard.h; sourceTree = "<group>"; };
+		C9800DAD11D846F3002D1A6E /* NumberCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberCard.m; sourceTree = "<group>"; };
+		C9800DAE11D846F3002D1A6E /* NumberCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NumberCard.xib; path = Classes/NumberCard.xib; sourceTree = "<group>"; };
+		C997B183121CEF3700D5A150 /* kachi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kachi.wav; sourceTree = "<group>"; };
+		C9B18D5912544E9700FF395F /* st_tapme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = st_tapme.png; sourceTree = "<group>"; };
+		C9B18D9C1254555800FF395F /* st_flickme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = st_flickme.png; sourceTree = "<group>"; };
+		C9BA453011F6EA7200E57145 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C9BA454511F6EB3A00E57145 /* guruguru2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guruguru2.wav; sourceTree = "<group>"; };
+		C9BA454B11F6EB3B00E57145 /* koton49.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = koton49.wav; sourceTree = "<group>"; };
+		C9DDF05811F82B3A0058642B /* bg_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_black.png; sourceTree = "<group>"; };
+		C9DDF05911F82B3A0058642B /* bg_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_red.png; sourceTree = "<group>"; };
+		C9DDF05A11F82B3A0058642B /* bg_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_green.png; sourceTree = "<group>"; };
+		C9DDF0A211F82D510058642B /* MyUIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIScrollView.h; sourceTree = "<group>"; };
+		C9DDF0A311F82D510058642B /* MyUIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIScrollView.m; sourceTree = "<group>"; };
+		C9ED78B91253369900EE5FED /* RouletterData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RouletterData.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				C9BA453111F6EA7200E57145 /* AVFoundation.framework in Frameworks */,
+				C943E9CB122509B50017E831 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9DDF0A211F82D510058642B /* MyUIScrollView.h */,
+				C9DDF0A311F82D510058642B /* MyUIScrollView.m */,
+				1D3623240D0F684500981E51 /* RouletterAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RouletterAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* RouletterViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* RouletterViewController.m */,
+				C9800DAC11D846F3002D1A6E /* NumberCard.h */,
+				C9800DAD11D846F3002D1A6E /* NumberCard.m */,
+				C929C58411DB17ED0046F675 /* EditCardNumber.h */,
+				C929C58511DB17ED0046F675 /* EditCardNumber.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Rouletter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				C9BA453011F6EA7200E57145 /* AVFoundation.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Rouletter_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9B18D9C1254555800FF395F /* st_flickme.png */,
+				C9B18D5912544E9700FF395F /* st_tapme.png */,
+				C997B183121CEF3700D5A150 /* kachi.wav */,
+				C91D342211F996C900A9D917 /* icon.png */,
+				C951E71E11F9618B00AF23D4 /* Default.png */,
+				C9DDF05811F82B3A0058642B /* bg_black.png */,
+				C9DDF05911F82B3A0058642B /* bg_red.png */,
+				C9DDF05A11F82B3A0058642B /* bg_green.png */,
+				C9BA454511F6EB3A00E57145 /* guruguru2.wav */,
+				C9BA454B11F6EB3B00E57145 /* koton49.wav */,
+				C929C58611DB17ED0046F675 /* EditCardNumber.xib */,
+				C9800DAE11D846F3002D1A6E /* NumberCard.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Rouletter-Info.plist */,
+				C97AB8A111FD507500FCB764 /* InfoPlist.strings */,
+				C9ED78B91253369900EE5FED /* RouletterData.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				C943E9CA122509B50017E831 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Rouletter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Rouletter" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rouletter;
+			productName = Rouletter;
+			productReference = 1D6058910D05DD3D006BFB54 /* Rouletter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Rouletter" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Rouletter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				C9800DB011D846F3002D1A6E /* NumberCard.xib in Resources */,
+				C929C58811DB17ED0046F675 /* EditCardNumber.xib in Resources */,
+				C9BA454D11F6EB3B00E57145 /* guruguru2.wav in Resources */,
+				C9BA455311F6EB3B00E57145 /* koton49.wav in Resources */,
+				C9DDF05B11F82B3A0058642B /* bg_black.png in Resources */,
+				C9DDF05C11F82B3A0058642B /* bg_red.png in Resources */,
+				C9DDF05D11F82B3A0058642B /* bg_green.png in Resources */,
+				C951E71F11F9618B00AF23D4 /* Default.png in Resources */,
+				C91D342311F996C900A9D917 /* icon.png in Resources */,
+				C97AB8A211FD507500FCB764 /* InfoPlist.strings in Resources */,
+				C997B184121CEF3700D5A150 /* kachi.wav in Resources */,
+				C9ED78BA1253369900EE5FED /* RouletterData.plist in Resources */,
+				C9B18D5A12544E9700FF395F /* st_tapme.png in Resources */,
+				C9B18D9D1254555800FF395F /* st_flickme.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RouletterAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* RouletterViewController.m in Sources */,
+				C9800DAF11D846F3002D1A6E /* NumberCard.m in Sources */,
+				C929C58711DB17ED0046F675 /* EditCardNumber.m in Sources */,
+				C9DDF0A411F82D510058642B /* MyUIScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C97AB8A111FD507500FCB764 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97AB89F11FD505600FCB764 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Rouletter_Prefix.pch;
+				INFOPLIST_FILE = "Rouletter-Info.plist";
+				PRODUCT_NAME = Rouletter;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Rouletter_Prefix.pch;
+				INFOPLIST_FILE = "Rouletter-Info.plist";
+				PRODUCT_NAME = Rouletter;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				PRODUCT_NAME = HandyRoulette;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PRODUCT_NAME = HandyRoulette;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C952272F1206B639008A619C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PRODUCT_NAME = HandyRoulette;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		C95227301206B639008A619C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Rouletter_Prefix.pch;
+				INFOPLIST_FILE = "Rouletter-Info.plist";
+				PRODUCT_NAME = Rouletter;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Rouletter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				C95227301206B639008A619C /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Rouletter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				C952272F1206B639008A619C /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
